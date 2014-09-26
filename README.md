@@ -21,7 +21,7 @@ slc run
 
   Run `slc loopback`, and name the app `loopback-example-angular-starter`.
 
-2. **Configure db.json**
+2. **Configure db.json.**
 
   Edit `server/datasources.json` to look like:
   ```
@@ -35,14 +35,14 @@ slc run
 
   >This allows us to persist our model instances to a JSON file. For more information, see the [memory connector documentation](http://docs.strongloop.com/display/LB/Memory+connector#Memoryconnector-Datapersistance).
 
-3. **Create the Task model**.
+3. **Create the Task model.**.
 
   Run `slc loopback:model Task` to create the Task model. Use the (default) memory connector, 3xpose the model via REST, leave the default plural form and give it the following property:
   |Property name|Property type|Required|
   |:-:|:-:|:-:|
   |description|string|Yes|
 
-4. **Add in a sample model**
+4. **Add in a sample model.**
 
   Run `slc run` to start the server and go to the http://localhost:3000/explorer. Add an Task instance with the following data:
   ```
@@ -77,7 +77,7 @@ slc run
   
   >Notice the "Task" property contains the model you just created.
 
-5. **Configure our vendor dir**
+5. **Configure our vendor directory.**
 
   Create `.bowerrc` in the project root with the following contents:
   ```
