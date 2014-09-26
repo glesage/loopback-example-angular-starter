@@ -1,0 +1,20 @@
+<h1>Task List</h1>
+<hr>
+<form name="taskForm" novalidate ng-submit="add()">
+  <div class="form-group"
+      ng-class="{'has-error': taskForm.description.$invalid
+        && taskForm.description.$dirty}">
+    <input type="text" class="form-control description" name="description"
+        placeholder="Description" ng-model="newTask.description" required
+        autocomplete="off" focus>
+    <span class="has-error control-label" ng-show="
+        taskForm.description.$invalid && taskForm.description.$dirty">
+      A description is required.
+    </span>
+  </div>
+  <button class="btn btn-default" ng-disabled="taskForm.$invalid">Add</button>
+</form>
+<hr>
+<div class="list-group">
+  <a class="list-group-item" ng-repeat="task in tasks">{{task.description}} <i class="glyphicon glyphicon-remove pull-right" ng-click="remove(task)"></i></a>
+</div>

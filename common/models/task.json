@@ -1,0 +1,14 @@
+{
+  "name": "Task",
+  "base": "PersistedModel",
+  "properties": {
+    "description": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
