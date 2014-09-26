@@ -38,6 +38,7 @@ slc run
 3. **Create the Task model.**
 
   Run `slc loopback:model Task` to create the Task model. Use the (default) memory connector, 3xpose the model via REST, leave the default plural form and give it the following property:
+
   |Property name|Property type|Required|
   |:-:|:-:|:-:|
   |description|string|Yes|
