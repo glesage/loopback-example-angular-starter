@@ -35,7 +35,7 @@ slc run
 
   >This allows us to persist our model instances to a JSON file. For more information, see the [memory connector documentation](http://docs.strongloop.com/display/LB/Memory+connector#Memoryconnector-Datapersistance).
 
-3. **Create the Task model.**.
+3. **Create the Task model.**
 
   Run `slc loopback:model Task` to create the Task model. Use the (default) memory connector, 3xpose the model via REST, leave the default plural form and give it the following property:
   |Property name|Property type|Required|
