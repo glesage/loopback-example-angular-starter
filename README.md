@@ -4,11 +4,10 @@ This example demonstrates how to use [LoopBack](http://loopback.io) with [Angula
 ##Prerequisites
 Before starting, makes sure you've followed [Getting Started with LoopBack](http://docs.strongloop.com/display/LB/Getting+started+with+LoopBack) to install Node and LoopBack. You will also need a basic undertsanding of LoopBack models](http://docs.strongloop.com/display/LB/Working+with+models).
 
+- Bower
 
 ##Procedure
 Follow the steps below to create the application from scratch. Doing this will give you a better understanding of how to implement AngularJS as a front-end solution to LoopBack for your own app.
-
-- Bower
 
 Otherwise, if you just want to see the example in action, do this:
 ```
