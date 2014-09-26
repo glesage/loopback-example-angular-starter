@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "main": "server/server.js",
   "scripts": {
-    "pretest": "jshint ."
+    "pretest": "jshint .",
+    "postinstall": "bower install"
   },
   "dependencies": {
     "compression": "^1.0.3",
@@ -15,5 +16,9 @@
   },
   "optionalDependencies": {
     "loopback-explorer": "^1.1.0"
+  },
+  "license": {
+    "name": "Dual MIT/StrongLoop",
+    "url" "https://github.com/strongloop/loopback-angular-starter/blob/master/LICENSE"
   }
 }
