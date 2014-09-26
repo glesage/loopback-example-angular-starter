@@ -19,6 +19,6 @@
   },
   "license": {
     "name": "Dual MIT/StrongLoop",
-    "url" "https://github.com/strongloop/loopback-angular-starter/blob/master/LICENSE"
+    "url": "https://github.com/strongloop/loopback-angular-starter/blob/master/LICENSE"
   }
 }
